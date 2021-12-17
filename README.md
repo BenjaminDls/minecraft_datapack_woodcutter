@@ -1,4 +1,4 @@
-# Datapack woodcutter Minecraft 1.17+
+# Datapack woodcutter Minecraft 1.18.*
 
 Crafting wooden stairs, trapdoors and others are more expensive than the stone ones. No that's not fair.
 ## Description
