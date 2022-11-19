@@ -1,4 +1,4 @@
-# Datapack woodcutter Minecraft 1.18.*
+# Datapack woodcutter Minecraft 1.19.*
 
 Crafting wooden stairs, trapdoors and others are more expensive than the stone ones. No that's not fair.
 ## Description
@@ -43,4 +43,4 @@ Place this in the stone cutter to craft :
 
 
 
-`*` is one of `oak`, `spruce`, `birch`, `jungle`, `acacia`, `dark_oak`, `crimson`, `warped`. For `crimson` and `warped`, `logs` are called `stem`, and `wood` are called `hyphae` but recipes are the same.
+`*` is one of `oak`, `spruce`, `birch`, `jungle`, `acacia`, `dark_oak`, `crimson`, `warped`, `mangrove`. For `crimson` and `warped`, `logs` are called `stem`, and `wood` are called `hyphae` but recipes are the same.
