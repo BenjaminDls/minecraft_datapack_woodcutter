@@ -24,6 +24,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
+      - name: logs
+        run: echo ${{env.GITHUB_REF_NAME}} . ${{GITHUB_REF_NAME}} . ${{env.GITHUB_REF}} . ${{GITHUB_REF}} . ${GITHUB_REF_NAME} . $GITHUB_REF_NAME
       # Install zip
       - name: Install zip
         run: sudo apt install zip
