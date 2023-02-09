@@ -30,17 +30,17 @@ jobs:
 
       # Compress files to create archive
       - name: Compress files
-        run: mkdir artifact && zip -r artifact/woodcutter_${GITHUB_REF_NAME}.zip .
+        run: mkdir artifact && zip -r artifact/woodcutter_${{env.GITHUB_REF_NAME}}.zip .
       
       #- uses: actions/upload-artifact@v3
       #  with:
-      #    name: woodcutter_${GITHUB_REF_NAME}
-      #    path: artifact/woodcutter_${GITHUB_REF_NAME}
+      #    name: woodcutter_${{env.GITHUB_REF_NAME}}
+      #    path: artifact/woodcutter_${{env.GITHUB_REF_NAME}}
 
       - name: Create release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          body: The Woodcutter datapack for Minecraft ${GITHUB_REF_NAME}. See README.md for more information.
-          name: Woodcutter datapack for Minecraft ${GITHUB_REF_NAME}
-          files: artifact/woodcutter_${GITHUB_REF_NAME}.zip
+          body: The Woodcutter datapack for Minecraft ${{env.GITHUB_REF_NAME}}. See README.md for more information.
+          name: Woodcutter datapack for Minecraft ${{env.GITHUB_REF_NAME}}
+          files: artifact/woodcutter_${{env.GITHUB_REF_NAME}}.zip
