@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "# #",
+      "CCC",
+      "CCC"
+  ],
+  "key": {
+      "#": {
+          "item": "minecraft:chain"
+      },
+      "C": {
+          "item": "minecraft:bamboo_planks"
+      }
+  },
+  "result": {
+      "item": "minecraft:bamboo_hanging_sign",
+      "count": 6
+  }
+}

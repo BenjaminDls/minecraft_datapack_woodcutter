@@ -1,0 +1,10 @@
+{
+  "type": "stonecutting",
+  "ingredient": [
+    {
+      "item": "minecraft:bamboo_planks"
+    }
+  ],
+  "result": "minecraft:bamboo_trapdoor",
+  "count": 2
+}
