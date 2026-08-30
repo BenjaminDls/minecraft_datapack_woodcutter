@@ -40,5 +40,5 @@ Place this in the stone cutter to craft :
     - 1 `*_stairs`
     - 2 `*_trapdoor`
 
-`*` is one of `acacia`, `bamboo`, `birch`, `cherry`, `crimson`, `dark_oak`, `jungle`, `mangrove`, `oak`, `spruce`, `warped`.     
+`*` is one of `acacia`, `bamboo`, `birch`, `cherry`, `crimson`, `dark_oak`, `jungle`, `mangrove`, `oak`, `pale_oak`, `spruce`, `warped`.     
 For `crimson` and `warped`, `logs` are called `stem`, and `wood` are called `hyphae` but recipes are the same.
